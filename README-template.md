@@ -22,7 +22,10 @@ Users should be able to:
 ### Screenshot
 ![alt text](Screenshot_11-7-2026_25535_127.0.0.1.jpeg)
 
+## Live Demo
 
+- **Live Site URL:** [View Live Demo] https://danny17bobd.github.io/calculator/
+  
 ## My process
 
 ### Built with
@@ -37,15 +40,23 @@ Users should be able to:
 
 ### What I learned
 
-i learned more on how to use grid and style it with respect to flex.
+- **State Management in Vanilla JS:** Mastered managing application state (tracking current inputs, previous numbers, and selected mathematical operators) cleanly without relying on external UI frameworks.
+- **Dynamic Theming with CSS Variables:** Implemented a scalable multi-theme architecture using CSS Custom Properties (`var(--...)`) toggled at the HTML root element via `data-theme` attributes.
+- **UX & Input Validation:** Standardized input sanitization logic to handle real-world edge cases gracefully—such as preventing multiple decimal points in a single operand, handling division by zero, and supporting sequential operations without pressing equals.
 
 
 ### Continued development
 
-i will focus more on js logic to further my frontend-development skills.
+In future iterations of this project, I plan to expand its functionality by focusing on the following areas:
+
+- **Calculation History Log:** Add a collapsible side drawer to store past equations, allowing users to recall or clear their calculation history.
+- **Scientific Calculator Mode:** Build an expandable panel offering advanced functions (such as square roots, exponentiation, trigonometric functions, and percentages).
+- **Unit Testing:** Implement automated unit tests using Jest to verify mathematical logic across all edge cases before deployment.
 
 ### AI Collaboration
 
-- i used gemini AI
-- i used them in refining my logic to a sustainable standard for better workflow
-- incomplete logic led to a poorly functioning calculator, but it was later resolved.
+During the development and polishing phase of this project, I leveraged AI collaboration (Gemini) as a pair programmer to:
+
+- **Code Review & Edge Case Analysis:** Refine mathematical state logic and ensure key events (like continuous operator inputs) were handled cleanly.
+- **Documentation & Presentation:** Structure a professional, standardized `README.md` and curate project showcase highlights for onboarding submissions.
+- **Asset Optimization:** Evaluate headshot photos and refine personal media assets to present a polished professional profile.
